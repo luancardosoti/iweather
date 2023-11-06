@@ -9,25 +9,32 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#13131A"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dev.luan.iweather"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#13131A"
+      },
+      "package": "com.dev.luan.iweather"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "experiments": {
       "tsconfigPaths": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0712fcaf-e1ff-4ffc-b0d2-41bf253cc120"
+      }
     }
   }
 }
